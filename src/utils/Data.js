@@ -64,11 +64,11 @@ export const projects = [
     project_desc:
       "A seamless ticket booking platform for movies, shows, and events",
     features:
-      "This movie ticket booking app offers real-time seat selection, responsive show listings, secure Stripe payments, and dynamic booking confirmation. Users can browse movies, view show timings, and instantly book seats with visual seat layouts and instant UI feedback — delivering a smooth and intuitive movie booking experience across all devices.",
+      "This movie ticket booking app offers real-time seat selection, responsive show listings, secure Stripe payments, and dynamic booking confirmation.Users can browse movies, view show timings, and instantly book seats with visual seat layouts and instant UI feedback — delivering a smooth and intuitive movie booking experience across all devices.",
     tech_stack: ["API", "MERN Stack", "Tailwind CSS","Nodemailer","Stripe","Clerk"],
     project_img: Project7,
-    project_url: "https://food-delivery-website-gamma.vercel.app",
-    github_link: "https://github.com/RituChoudhary01/Tomato-Food-delivery-website",
+    project_url: "https://full-movie-book-ticket-app-ritu.vercel.app",
+    github_link: "https://github.com/RituChoudhary01/FullMovieBookTicketApp",
     reverse: true,
   },
   {
@@ -77,10 +77,10 @@ export const projects = [
     project_desc: "Order food, track delivery status, and manage system through admin panel.",
     features:
       "A full-featured food delivery web application built with the MERN stack. Users can  add items to cart, place orders, and track delivery status in real time. The My Orders page shows live updates for each placed order. Admins have a dedicated dashboard to add, update, or remove food items and manage user orders. The UI is responsive, and users receive instant toast notifications for actions like placing or canceling orders, making for a seamless food-ordering experience",
-    tech_stack: ["React JS", "TailwindCss","API"],
+    tech_stack: ["React JS", "MERN Stack","API","Stripe","CSS"],
     project_img: Project8,
-    project_url: "https://top-courses-react-ten.vercel.app",
-    github_link: "https://github.com/RituChoudhary01/top-courses-react?tab=readme-ov-file",
+    project_url: "https://food-delivery-website-gamma.vercel.app",
+    github_link: "https://github.com/RituChoudhary01/Tomato-Food-delivery-website",
     reverse: false,
   },
   {

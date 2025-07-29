@@ -9,6 +9,7 @@ import Project6 from '../assets/Forever.png';
 import Project7 from '../assets/QuickShow.png';
 import Project8 from "../assets/Tomoto.png";
 import Project9 from '../assets/Quickai.png';
+import Project10 from '../assets/QuickChat.png';
 
 export const resumeLink =
   "https://drive.google.com/file/d/1PPyjmP2SlnoevoLNE9BZ58-FNefOQCdq/view?usp=drive_link";
@@ -58,6 +59,19 @@ export const projects = [
     project_url: "https://quick-ai-ritu.vercel.app",
     github_link: "https://github.com/RituChoudhary01/QuickAI",
     reverse: true,
+  },
+
+  {
+    id: -2,
+    project_name: "QuickChat Real-Time Chat App",
+    project_desc: "QuickChat is a real-time chat app with instant messaging, image sharing, and online status.",
+    features:
+      "QuickChat delivers blazing-fast real-time messaging powered by Socket.io, seamless image and media sharing via Cloudinary, precise online/offline user indicators, intelligent unread message tracking, robust JWT-secured authentication, complete profile management with instant profile picture updates, and a fully responsive, modern interface for a flawless communication experience across all devices.",
+    tech_stack: ["React Js", "TailwindCss","API", "Axios"," Toastify","Node.js","Express.js","MongoDB","JWT","Socket.io","Cloudinary"],
+    project_img: Project10,
+    project_url: "https://chat-app-ritu.vercel.app",
+    github_link: "https://github.com/RituChoudhary01/QuickChat-Real-time-chat-App",
+    reverse: false,
   },
 
   {

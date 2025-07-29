@@ -8,6 +8,7 @@ import Project5 from "../assets/StudySync.png";
 import Project6 from '../assets/Forever.png';
 import Project7 from '../assets/QuickShow.png';
 import Project8 from "../assets/Tomoto.png";
+import Project9 from '../assets/Quickai.png';
 
 export const resumeLink =
   "https://drive.google.com/file/d/1PPyjmP2SlnoevoLNE9BZ58-FNefOQCdq/view?usp=drive_link";
@@ -45,6 +46,19 @@ export const skills = [
 ];
 
 export const projects = [
+
+  {
+    id: -1,
+    project_name: "Quick AI",
+    project_desc: "AI-powered web app for generating content, blogs, images, removing backgrounds, and objects from images, and collaborating in a creative community.",
+    features:
+      "Quick AI is a powerful AI-driven web application packed with creative tools for content creators. It allows users to generate high-quality blog articles and suggest catchy blog titles using AI. Users can also create stunning images from text prompts, remove backgrounds from photos, and erase unwanted objects with precision. The app includes a like feature to engage with AI-generated creations and a community section to explore others’ work. It ensures secure user authentication with JWT, utilizes Cloudinary for efficient image storage, and stores data using SQL. Built with React and Tailwind CSS, Quick AI delivers a fast, responsive, and user-friendly experience.",
+    tech_stack: ["React Js", "TailwindCss","API", "Router DOM", "Axios"," Toastify","Node.js","Express.js","SQL","Cloudinary","Neon","Cleck"],
+    project_img: Project9,
+    project_url: "https://quick-ai-ritu.vercel.app",
+    github_link: "https://github.com/RituChoudhary01/QuickAI",
+    reverse: true,
+  },
 
   {
     id: 0,

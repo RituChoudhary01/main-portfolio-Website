@@ -12,7 +12,7 @@ import Project9 from '../assets/Quickai.png';
 import Project10 from '../assets/QuickChat.png';
 
 export const resumeLink =
-  "https://drive.google.com/file/d/1PPyjmP2SlnoevoLNE9BZ58-FNefOQCdq/view?usp=drive_link";
+  "https://drive.google.com/file/d/1dA8B0QoXMlmF-hxftbqURgkYQ6YsIpdD/view?usp=drive_link";
 export const skills = [
   {
     id: 0,

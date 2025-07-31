@@ -58,7 +58,7 @@ export const projects = [
     project_img: Project9,
     project_url: "https://quick-ai-ritu.vercel.app",
     github_link: "https://github.com/RituChoudhary01/QuickAI",
-    reverse: true,
+    reverse: false,
   },
 
   {
@@ -71,7 +71,7 @@ export const projects = [
     project_img: Project10,
     project_url: "https://chat-app-ritu.vercel.app",
     github_link: "https://github.com/RituChoudhary01/QuickChat-Real-time-chat-App",
-    reverse: false,
+    reverse: true,
   },
 
   {

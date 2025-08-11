@@ -10,6 +10,9 @@ import Project7 from '../assets/QuickShow.png';
 import Project8 from "../assets/Tomoto.png";
 import Project9 from '../assets/Quickai.png';
 import Project10 from '../assets/QuickChat.png';
+import Project11 from '../assets/QuickBlog.png';
+import Project12 from '../assets/JobPortal.png';
+import Project13 from '../assets/Imagify.png';
 
 export const resumeLink =
   "https://drive.google.com/file/d/1dA8B0QoXMlmF-hxftbqURgkYQ6YsIpdD/view?usp=drive_link";
@@ -49,7 +52,7 @@ export const skills = [
 export const projects = [
 
   {
-    id: -1,
+    id: 1,
     project_name: "Quick AI",
     project_desc: "AI-powered web app for generating content, blogs, images, removing backgrounds, and objects from images, and collaborating in a creative community.",
     features:
@@ -62,7 +65,7 @@ export const projects = [
   },
 
   {
-    id: -2,
+    id: 2,
     project_name: "QuickChat Real-Time Chat App",
     project_desc: "QuickChat is a real-time chat app with instant messaging, image sharing, and online status.",
     features:
@@ -75,7 +78,7 @@ export const projects = [
   },
 
   {
-    id: 0,
+    id: 3,
     project_name: "Forever Full Stack E-Commerace Website",
     project_desc: "E-commerce website with cart, checkout, payment, and admin panel support.",
     features:
@@ -100,7 +103,33 @@ export const projects = [
     reverse: true,
   },
   {
-    id: 0,
+    id: 5,
+    project_name: "QuickBlog Full Stack Blog Website with Ai feature",
+    project_desc:
+      "QuickBlog — MERN Stack Blog Platform with Integrated AI Features for Content Creation & Engagement",
+    features:
+      "QuickBlog is a modern, full-stack blogging platform offering a seamless reading experience with advanced features like blog browsing, category filtering, and commenting. Powered by an intuitive Admin Dashboard and Google Gemini AI integration, it enables instant, high-quality content generation, efficient post management, and comment moderation—perfect for scaling impactful content effortlessly.",
+    tech_stack: ["API", "MERN Stack", "Tailwind CSS","Stripe","Axios","JWT","GOOGLE GEMINI API",],
+    project_img: Project11,
+    project_url: "https://quick-blog-ritu.vercel.app/",
+    github_link: "https://github.com/RituChoudhary01/QuickBlog",
+    reverse: false,
+  },
+  {
+    id: 6,
+    project_name: "InsiderJob | MERN-Powered Modern Job Portal",
+    project_desc:
+      "InsiderJob | MERN-powered modern job portal for seamless hiring, job search, and recruiter management.",
+    features:
+      "InsiderJobs is a MERN-powered modern job portal connecting job seekers and recruiters in real-time. It offers seamless job search, filtering, and one-click applications for candidates, while providing recruiters with secure dashboards, applicant tracking, resume management, and instant hiring decisions—streamlining the entire recruitment process for maximum efficiency.",
+    tech_stack: ["API", "MERN Stack", "Tailwind CSS","Axios","JWT","Cloudinary","Clerk"],
+    project_img: Project12,
+    project_url: "https://job-portal-csu1.vercel.app/",
+    github_link: "https://github.com/RituChoudhary01/Job-Portal",
+    reverse: true,
+  },
+  {
+    id: 7,
     project_name: "Tomoto Full Stack Food Delivery All",
     project_desc: "Order food, track delivery status, and manage system through admin panel.",
     features:
@@ -112,7 +141,21 @@ export const projects = [
     reverse: false,
   },
   {
-    id: 4,
+    id: 8,
+    project_name: "Imagify — AI-Powered Image Generation Platform",
+    project_desc:
+      "Imagify — AI-Powered Image Generation Platform | Instantly create stunning, high-quality images from text prompts clipdrop API.",
+    features:
+      "Imagify is a modern AI-powered web app that instantly generates stunning, high-quality images from simple text prompts. Built for creativity and speed, it offers a clean, responsive UI, making it easy for users to turn ideas into visuals in seconds—perfect for designers, marketers, and content creators",
+    tech_stack: ["MERN","API", "Tailwind CSS","OPEN AI","Clerk","STRIPE"],
+    project_img: Project13,
+    project_url: "imagfy-ritu.vercel.app",
+    github_link: "https://github.com/RituChoudhary01/IMAGFY",
+    reverse: true,
+  },
+
+  {
+    id: 9,
     project_name: "React-ShoppingCard-Website",
     project_desc:
       "Responsive React shopping cart with dynamic product browsing, quantity updates, and real-time pricing.",
@@ -122,10 +165,10 @@ export const projects = [
     project_img: Project4,
     project_url: "https://shopping-cart-react-omega-nine.vercel.app",
     github_link: "https://github.com/RituChoudhary01/shopping-cart-react?tab=readme-ov-file",
-    reverse: true,
+    reverse: false,
   },
   {
-    id: 0,
+    id: 10,
     project_name: "Top-Courses – React",
     project_desc: "React-based Course Explorer with Real-Time Filtering.",
     features:
@@ -134,11 +177,11 @@ export const projects = [
     project_img: Project3,
     project_url: "https://top-courses-react-ten.vercel.app",
     github_link: "https://github.com/RituChoudhary01/top-courses-react?tab=readme-ov-file",
-    reverse: false,
+    reverse: true,
   },
  
   {
-    id: 1,
+    id: 11,
     project_name: "Find the Shortest Path Using Dijkstra's Algorithm for My Campus – IIT ISM Dhanbad",
     project_desc: "Dijkstra’s Algorithm use for campus navigation",
     features:
@@ -147,10 +190,10 @@ export const projects = [
     project_img: Project2,
     project_url: "",
     github_link: "https://github.com/RituChoudhary01/find-the-shortest-path-using-Dijkstra-s-Algorithm",
-    reverse: true,
+    reverse: false,
   },
   {
-    id: 2,
+    id: 12,
     project_name: "StudySync",
     project_desc: "Basic frontend project with modern UI design",
     features:
@@ -159,10 +202,10 @@ export const projects = [
     project_img: Project5,
     project_url: "https://study-sync-five-mu.vercel.app",
     github_link: "https://github.com/RituChoudhary01?tab=repositories",
-    reverse: false,
+    reverse: true,
   },
   {
-    id: 2,
+    id: 13,
     project_name: "Razorpay Clone",
     project_desc: "Razorpay UI clone built TailWindCss.",
     features:
@@ -171,7 +214,7 @@ export const projects = [
     project_img: Project1,
     project_url: "https://razapay-clone.vercel.app/#",
     github_link: "https://github.com/RituChoudhary01/RazapayClone",
-    reverse: true,
+    reverse: false,
   },
 ];
 

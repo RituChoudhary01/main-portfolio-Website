@@ -15,7 +15,7 @@ import Project12 from '../assets/JobPortal.png';
 import Project13 from '../assets/Imagify.png';
 
 export const resumeLink =
-  "https://drive.google.com/file/d/1dA8B0QoXMlmF-hxftbqURgkYQ6YsIpdD/view?usp=drive_link";
+  "https://drive.google.com/file/d/1F-yLpDum9PWzyel_l4XG28cw76pAsJ35/view?usp=drive_link";
 export const skills = [
   {
     id: 0,
